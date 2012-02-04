@@ -8,7 +8,7 @@
   * license.
   */
 
-#include "sorting.h"
+#include "../sorting.h"
 
  /*
   * Selection sort works by selecting the minimum element in

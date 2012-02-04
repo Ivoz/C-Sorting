@@ -8,7 +8,7 @@
   * license.
   */
 
-#include "sorting.h"
+#include "../sorting.h"
 
 /*
  * Cocktail sort is a variation on bubble sort. While bubble sort

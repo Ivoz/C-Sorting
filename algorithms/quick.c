@@ -8,7 +8,7 @@
   * license.
   */
 
-#include "sorting.h"
+#include "../sorting.h"
 
  /*
   * Quick sort is practically one of the fastest sorting algorithms.

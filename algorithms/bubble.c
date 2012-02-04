@@ -8,7 +8,7 @@
   * license.
   */
 
-#include "sorting.h"
+#include "../sorting.h"
 
  /* 
   * Bubble sort works by 'bubbling' large elements up to the top

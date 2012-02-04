@@ -8,7 +8,7 @@
   * license.
   */
 
-#include "sorting.h"
+#include "../sorting.h"
 
 void heapify(int arr[], int len);
 void sift_down(int arr[], int node, int len);

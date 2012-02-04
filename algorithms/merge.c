@@ -10,7 +10,7 @@
 
 #include <string.h>
 #include <stdlib.h>
-#include "sorting.h"
+#include "../sorting.h"
 
 void partition(int arr[], int len, int merger[]);
 void merge(int a[], int lena, int b[], int lenb, int merger[]);

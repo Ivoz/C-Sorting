@@ -1,5 +1,5 @@
-#ifndef __sorting_
-#define __sorting_
+#ifndef Sorting_
+#define Sorting_
 #define DEFAULT_RANGE 1000
 #define HANDOFF 10
 
@@ -28,4 +28,4 @@ typedef struct sort_alg {
 	char *name;
 } sort_alg_t;
 
-#endif // #ifndef __sorting_
+#endif // #ifndef Sorting_

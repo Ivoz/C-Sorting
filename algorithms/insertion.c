@@ -8,7 +8,7 @@
   * license.
   */
 
-#include "sorting.h"
+#include "../sorting.h"
 
  /*
   * Insertion sort works by conceptually partitioning the list 

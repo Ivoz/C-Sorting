@@ -1,8 +1,9 @@
-CC 	= gcc
+CC      = gcc
 CFLAGS 	= -c -Wall
 LDFLAGS = 
 ifeq ($(CC), gcc)
-	CFLAGS += -std=c99
+	LDFLAGS += -std=c99
+	CFLAGS  += -std=c99
 endif
 ifdef DEBUG # add debugging symbols
 	CFLAGS += -g -ggdb -O0
@@ -10,15 +11,15 @@ ifdef DEBUG # add debugging symbols
 else # performance flags
 	CFLAGS += -O3
 endif
-SOURCES = $(wildcard *.c)
+SOURCES = $(wildcard algorithms/*.c)
 OBJECTS = $(SOURCES:.c=.o)
-DEPS 	= sorting.h
+DEPS 	= ../sorting.h
 EXEC 	= sorts
 
 all: $(SOURCES) $(EXEC)
 
 $(EXEC): $(OBJECTS)
-	$(CC) $(LDFLAGS) $^ -o $@
+	$(CC) $(LDFLAGS) $^ sorting.c -o $@
 
 .c.o: $(DEPS)
 	$(CC) $(CFLAGS) $< -o $@

@@ -8,7 +8,7 @@
   * license.
   */
 
-#include "sorting.h"
+#include "../sorting.h"
  /*
   * Comb sort is an improved bubble sort. It improves by
   * starting off trying to swap elements far away from eachother,

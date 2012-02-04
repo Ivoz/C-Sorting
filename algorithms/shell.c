@@ -8,7 +8,7 @@
   * license.
   */
 
-#include "sorting.h" 
+#include "../sorting.h" 
 
  /*
   * Shell sort is a variation on insertion sort, similar to comb
