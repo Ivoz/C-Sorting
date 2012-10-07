@@ -21,6 +21,17 @@ well that is fine too!
 Regards,
 Matt.
 
+Example Usage
+-------------
+
+    $ time ./sorts -cm -r 10000000 -a merge
+    Comparisons: 224570926
+    Moves:       230898433
+
+    real    0m4.117s
+    user    0m3.973s
+    sys     0m0.137s
+
 License
 =======
 
